@@ -6,7 +6,13 @@ namespace InClass
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double sum = 0;
+            for (int i = 1; i < 1000; i++)
+            {
+                sum += i;
+            }
+            Console.WriteLine($"{sum.ToString("N0")}");
+
         }
     }
 }
